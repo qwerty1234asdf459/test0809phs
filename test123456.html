@@ -22,15 +22,15 @@
             height: 500px;
             width: 100%;
         }
-        .left{
+        .lefta{
             background-image: url(image_readtop_2017_220132_14909518722831365.jpg);
             width: 30%;
             justify-content: flex-start;
         }
-        .leftbox{
+        div[class|="left"]{
             margin-left: 10px;
             margin-top: 20px;
-            width: 20%;
+            width: 30%;
             height: 40px;
         }
         .right{
@@ -42,6 +42,13 @@
             text-align: center;
             line-height: 100px;
         }
+        a:link{
+            color: black;
+        }
+        a:visited{
+            color: black;
+        }
+
 
     </style>
 </head>
@@ -51,11 +58,11 @@
     </header>
 
     <section>
-        <div class="left">
-            <div class="leftbox"><a href="">암스테르담</a></div>
-            <div class="leftbox"><a href="">파리</a></div>
-            <div class="leftbox"><a href="">런던</a></div>
-            <div class="leftbox"><a href="">베를린</a></div>
+        <div class="lefta">
+            <div class="left-box"><a href="">암스테르담</a></div>
+            <div class="left-box"><a href="">파리</a></div>
+            <div class="left-box"><a href="">런던</a></div>
+            <div class="left-box"><a href="">베를린</a></div>
         </div>
         <div class="right">
             <b>서울</b><br>
