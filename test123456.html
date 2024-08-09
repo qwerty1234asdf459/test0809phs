@@ -5,38 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         header{
-            width: 100%;
-            height: 400px;
-            display: flex;
-        }
-        #left{
-            width: 30%;
-            height: 400px;
-        }
-        #right{
-            width: 70%;
-            height: 400px;
-            display: flex;
-        }
-        .top{
-            width: 100%;
-            height: 100px;
             background-color: gray;
+            border: 1px solid black;
+            height: 150px;
+            margin: 0 auto;
+            text-align: center;
+            line-height: 150px;
+        }
+        section{
+            display: flex;
+            height: 500px;
+            width: 100%;
+        }
+        .left{
+            background-image: url(image_readtop_2017_220132_14909518722831365.jpg);
+            width: 30%;
+            justify-content: flex-start;
+        }
+        .leftbox{
+            margin-left: 10px;
+            margin-top: 20px;
+            width: 20%;
+            height: 40px;
+        }
+        .right{
+            width: 70%;
+            background-image: url(06P02903Aa42000.jpg);
+        }
+        footer{
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
         }
 
     </style>
 </head>
 <body>
     <header>
-        <div id="left">너무</div>
-        <div id="right">
-            <div class="top">
-                <a href="">헷갈려</a>
-                <a href="">어렵다</a>
-                <a href="">아</a>
-            </div>
-        </div>
+        <h1>전세계의 도시들</h1>
     </header>
+
+    <section>
+        <div class="left">
+            <div class="leftbox"><a href="">암스테르담</a></div>
+            <div class="leftbox"><a href="">파리</a></div>
+            <div class="leftbox"><a href="">런던</a></div>
+            <div class="leftbox"><a href="">베를린</a></div>
+        </div>
+        <div class="right">
+            <b>서울</b><br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laborum ducimus quas, nesciunt molestias quibusdam voluptatibus consequuntur atque dolore autem perspiciatis adipisci ad eligendi doloremque maxime veniam reprehenderit ipsum dolores.
+        </div>
+    </section>
+    <footer>
+        <h3>하단</h3>
+    </footer>
 </body>
 </html>
